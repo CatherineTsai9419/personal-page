@@ -1,0 +1,57 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.nav { background-color: #7b464c; position: fixed; top: 0; width: 100%; display: block; -webkit-transition: top 0.3s; transition: top 0.3s; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; z-index: 1000; }
+
+.nav a { float: left; display: block; color: #f2f2f2; text-align: center; padding: 15px; text-decoration: none; font-size: 17px; }
+
+.nav a:hover { background-color: #ddd; color: black; }
+
+.nav p { color: white; }
+
+.footer { height: 55px; width: 100%; position: absolute; background-color: black; }
+
+.content { background-color: #f4dbd7; }
+
+.content .picture { width: 550px; margin: 0 auto; }
+
+.content .picture img { width: 550px; position: absolute; top: 17%; z-index: 100; }
+
+.content .picture #div1 { width: 300px; height: 500px; background-color: #e9c9ca; position: absolute; top: 16%; z-index: 2; }
+
+.content .picture #div2 { width: 500px; height: 500px; border: solid; border-width: 5px; border-color: #e9c9ca; position: absolute; top: 20%; z-index: 3; }
+
+.content .background { margin: 0 auto; width: 1550px; }
+
+.content .background img { width: 1550px; height: 800px; z-index: 1; }
+
+.content .click { position: absolute; width: 100%; top: 15%; }
+
+.content .click img { position: absolute; -webkit-transform: rotate(350deg); transform: rotate(350deg); width: 150px; margin-left: 35%; z-index: 102; display: none; }
+
+.content .click input { width: 130px; height: 130px; background: transparent; border-style: none; background-size: 100%; cursor: pointer; outline: none; }
+
+.content .click #clickdot1 { position: absolute; margin-left: 38%; margin-top: 5%; z-index: 101; display: none; }
+
+.content .story { position: absolute; top: 10%; }
+
+.content .story .paragraph1 { width: 250px; height: 150px; background-color: white; margin-left: 40%; margin-top: 80%; z-index: 4; }
+
+.content .story .paragraph2 { width: 250px; height: 150px; background-color: white; margin-right: 40%; margin-top: 80%; z-index: 5; float: left; }
+/*# sourceMappingURL=index.min.css.map */
