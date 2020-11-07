@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsai,Pei-Yun</title>
+    <link rel="stylesheet" href="./CSS/index.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style="overflow-x: hidden;">
+<div id="navbar" class="nav">
+    <p>Tsai,Pei-Yun</p>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+      
+<div class="content" style="height: 800px;">
+    <div class="background">
+        <img src="./IMG/背景圖片.jpg" alt="">
+    </div>
+    <div class="picture">
+        <img id="firstimg" src="./IMG/人像花花-1.1.png" style="display: none;">
+        <img id="secondimg" src="./IMG/人像花花-2.1.png" style="display: none;">
+        <div id="div1"  data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1500"></div>
+        <div id="div2" data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1500"></div>
+    </div>
+    <div class="click">
+        <img id="clickhere" src="./IMG/click here.gif" alt="">
+        <input id="clickdot1" type="button" onclick="firstclick();" style="background-image:url(./IMG/star.gif)">
+    </div>
+    <div class="story">
+        <div class="paragraph1"></div>
+        <div class="paragraph2"></div>
+    </div>
+
+    
+    
+</div>
+<div class="footer">
+
+</div>
+<script src="./JS/navbar.js"></script>
+<script src="./JS/index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+ AOS.init();
+</script>
+</body>
+</html>
